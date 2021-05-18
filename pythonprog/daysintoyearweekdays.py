@@ -1,0 +1,5 @@
+days=int(input("enter the number of days = "))
+year=int(days/365)
+week=int((days%365)/7)
+left_days=int((days%365)%7)
+print("so the converted format is = ",year,week,left_days)
